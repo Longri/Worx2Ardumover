@@ -40,7 +40,7 @@ const byte PIN_PWM_LCD_E = 13;
 const byte PIN_PWM_LCD_DI = 14; // (A0)
 const byte PIN_PWM_LCD_RW = 15; // (A1)
 
-const byte PIN_NEOPIXEL = 19; // (A6)
+const byte PIN_NEOPIXEL = 16; // (A2)
 
 int contrastValue = 0;
 int brightnessValue = 0;
