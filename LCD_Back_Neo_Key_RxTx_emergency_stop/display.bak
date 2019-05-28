@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5CEEE15E" Ref="J?"  Part="1"
 AR Path="/5CED8FBC/5CEEE15E" Ref="J2"  Part="1" 
 F 0 "J2" V 6015 2330 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 5924 2330 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 5850 2400 50  0001 C CNN
+F 2 "LCD_Back_Neo_Key_RxTx_emergency_stop:Display" H 5850 2400 50  0001 C CNN
 F 3 "~" H 5850 2400 50  0001 C CNN
 	1    5850 2400
 	0    -1   -1   0   

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date "sam. 04 avril 2015"
 Rev ""
@@ -67,12 +67,10 @@ Wire Wire Line
 Connection ~ 5400 6200
 Wire Wire Line
 	5400 6200 5400 6350
-Text GLabel 6200 5150 2    50   Input ~ 0
-Ardu_A5
-Wire Wire Line
-	6200 5150 5900 5150
+Text GLabel 6200 4850 2    50   Input ~ 0
+Ardu_A2
 Text GLabel 1350 3650 2    50   Input ~ 0
-Ardu_A5
+Ardu_A2
 Wire Wire Line
 	1050 3650 1350 3650
 $Comp
@@ -80,7 +78,7 @@ L Connector:Conn_01x08_Male J3
 U 1 1 5CE28136
 P 1400 6500
 F 0 "J3" H 1508 6981 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1508 6890 50  0000 C CNN
+F 1 "Conn_01x08_Male_KeyPad" H 1508 6890 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal_invert" H 1400 6500 50  0001 C CNN
 F 3 "~" H 1400 6500 50  0001 C CNN
 	1    1400 6500
@@ -202,32 +200,47 @@ Wire Wire Line
 	4850 4150 4850 4050
 Wire Wire Line
 	4850 4050 1050 4050
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5CE84571
-P 1150 1850
-F 0 "J4" H 1178 1876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1178 1785 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1150 1850 50  0001 C CNN
-F 3 "~" H 1150 1850 50  0001 C CNN
-	1    1150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 5CE84B70
-P 1150 1950
-F 0 "J5" H 1178 1976 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 1178 1885 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1150 1950 50  0001 C CNN
-F 3 "~" H 1150 1950 50  0001 C CNN
-	1    1150 1950
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 9950 750  1050 250 
 U 5CED8FBC
 F0 "Display" 50
 F1 "display.sch" 50
 $EndSheet
+Text GLabel 2250 4600 0    50   Input ~ 0
+VCC-24V
+Wire Wire Line
+	2250 4600 2350 4600
+Wire Wire Line
+	2350 4600 2350 4450
+Connection ~ 2350 4450
+$Sheet
+S 7350 900  1250 600 
+U 5CED30A6
+F0 "emergency-stop" 50
+F1 "emergency-stop.sch" 50
+$EndSheet
+Wire Wire Line
+	6200 4850 5900 4850
+Text GLabel 6200 5050 2    50   Input ~ 0
+Ardu_A4
+Text GLabel 6200 5150 2    50   Input ~ 0
+Ardu_A5
+Wire Wire Line
+	6200 5050 5900 5050
+Wire Wire Line
+	6200 5150 5900 5150
+Text GLabel 6200 4950 2    50   Input ~ 0
+Ardu_A3
+Wire Wire Line
+	6200 4950 5900 4950
+$Sheet
+S 9700 1700 750  400 
+U 5CF1B710
+F0 "drill_holes" 50
+F1 "drill_holes.sch" 50
+$EndSheet
+Text GLabel 6200 5250 2    50   Input ~ 0
+Ardu_A6
+Wire Wire Line
+	6200 5250 5900 5250
 $EndSCHEMATC
