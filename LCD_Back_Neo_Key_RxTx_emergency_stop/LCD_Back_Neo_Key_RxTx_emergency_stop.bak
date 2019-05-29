@@ -239,4 +239,8 @@ U 5CF1B710
 F0 "drill_holes" 50
 F1 "drill_holes.sch" 50
 $EndSheet
+Text GLabel 6200 5250 2    50   Input ~ 0
+Ardu_A6
+Wire Wire Line
+	6200 5250 5900 5250
 $EndSCHEMATC
