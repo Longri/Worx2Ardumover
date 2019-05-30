@@ -39,27 +39,12 @@ Text GLabel 5300 3100 1    50   Input ~ 0
 VCC-5V
 Wire Wire Line
 	3050 4450 3400 4450
-$Comp
-L Connector:Screw_Terminal_01x09 J1
-U 1 1 5CDFAC77
-P 850 4050
-F 0 "J1" H 768 3425 50  0000 C CNN
-F 1 "Screw_Terminal_01x09" H 768 3516 50  0000 C CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x09_P5.00mm_45-Degree" H 850 4050 50  0001 C CNN
-F 3 "~" H 850 4050 50  0001 C CNN
-	1    850  4050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5300 3100 5300 3650
 Text GLabel 1350 3850 2    50   Input ~ 0
 VCC-5V
-Wire Wire Line
-	1350 3850 1050 3850
 Text GLabel 1350 3750 2    50   Input ~ 0
 GND
-Wire Wire Line
-	1350 3750 1050 3750
 Wire Wire Line
 	5400 6200 5500 6200
 Wire Wire Line
@@ -71,8 +56,6 @@ Text GLabel 6200 4850 2    50   Input ~ 0
 Ardu_A2
 Text GLabel 1350 3650 2    50   Input ~ 0
 Ardu_A2
-Wire Wire Line
-	1050 3650 1350 3650
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 5CE28136
@@ -156,8 +139,6 @@ Wire Wire Line
 	4700 4450 4900 4450
 Wire Wire Line
 	4900 4350 4700 4350
-Wire Wire Line
-	1050 4450 2350 4450
 Text GLabel 2200 4250 0    50   Input ~ 0
 GND
 Text GLabel 6200 4650 2    50   Input ~ 0
@@ -173,8 +154,6 @@ Ardu_D13
 Wire Wire Line
 	4700 5350 4900 5350
 Wire Wire Line
-	1050 4350 2350 4350
-Wire Wire Line
 	2350 4350 2350 4250
 $Comp
 L ArduMicro:DC-DC_Stepdown-Zimprich U1
@@ -189,17 +168,6 @@ F 3 "" H 2700 4350 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2200 4250 2350 4250
-Connection ~ 2350 4250
-Wire Wire Line
-	4900 4050 4900 3950
-Wire Wire Line
-	4900 3950 1050 3950
-Wire Wire Line
-	4900 4150 4850 4150
-Wire Wire Line
-	4850 4150 4850 4050
-Wire Wire Line
-	4850 4050 1050 4050
 $Sheet
 S 9950 750  1050 250 
 U 5CED8FBC
@@ -212,7 +180,6 @@ Wire Wire Line
 	2250 4600 2350 4600
 Wire Wire Line
 	2350 4600 2350 4450
-Connection ~ 2350 4450
 $Sheet
 S 7350 900  1250 600 
 U 5CED30A6
@@ -243,4 +210,47 @@ Text GLabel 6200 5250 2    50   Input ~ 0
 Ardu_A6
 Wire Wire Line
 	6200 5250 5900 5250
+$Comp
+L Connector:Screw_Terminal_01x14 J?
+U 1 1 5CEFB18C
+P 800 3850
+F 0 "J?" H 718 2925 50  0000 C CNN
+F 1 "Screw_Terminal_01x14" H 718 3016 50  0000 C CNN
+F 2 "" H 800 3850 50  0001 C CNN
+F 3 "~" H 800 3850 50  0001 C CNN
+	1    800  3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 3650 1350 3650
+Wire Wire Line
+	1000 3750 1350 3750
+Wire Wire Line
+	1000 3850 1350 3850
+Wire Wire Line
+	1000 4350 2350 4350
+Wire Wire Line
+	1000 4450 2350 4450
+Text GLabel 1350 3550 2    50   Input ~ 0
+ScrewTerm10-EmrgencyRelay12
+Text GLabel 1350 3450 2    50   Input ~ 0
+ScrewTerm11-EmrgencyRelay14
+Text GLabel 1350 3350 2    50   Input ~ 0
+ScrewTerm12-EmrgencyRelay11
+Text GLabel 1350 3250 2    50   Input ~ 0
+ScrewTerm13-EmergencyStopSwitch1
+Text GLabel 1350 3150 2    50   Input ~ 0
+ScrewTerm14-EmergencyStopSwitch2
+Wire Wire Line
+	1350 3150 1000 3150
+Wire Wire Line
+	1350 3250 1000 3250
+Wire Wire Line
+	1350 3350 1000 3350
+Wire Wire Line
+	1350 3450 1000 3450
+Wire Wire Line
+	1350 3550 1000 3550
+Text Notes 6650 5300 0    50   ~ 0
+24V emergency stop relay control input
 $EndSCHEMATC

@@ -2,4 +2,5 @@
   (lib (name ArduMicro)(type Legacy)(uri ${KIPRJMOD}/ArduMicro.lib)(options "")(descr ""))
   (lib (name ArduinoSignalDriver-rescue)(type Legacy)(uri ${KIPRJMOD}/ArduinoSignalDriver-rescue.lib)(options "")(descr ""))
   (lib (name LCD_Back_Neo_Key_RxTx_emergency_stop-rescue)(type Legacy)(uri ${KIPRJMOD}/LCD_Back_Neo_Key_RxTx_emergency_stop-rescue.lib)(options "")(descr ""))
+  (lib (name LCD_Back_Neo_Key_RxTx_emergency_stop-cache)(type Legacy)(uri ${KIPRJMOD}/LCD_Back_Neo_Key_RxTx_emergency_stop-cache.lib)(options "")(descr ""))
 )

@@ -111,17 +111,6 @@ Wire Wire Line
 	6550 4700 6550 4850
 Wire Wire Line
 	4300 4750 4300 5550
-$Comp
-L Connector:Screw_Terminal_01x05 J6
-U 1 1 5CEE591F
-P 8250 5500
-F 0 "J6" H 8330 5542 50  0000 L CNN
-F 1 "Screw_Terminal_01x05" H 8330 5451 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 8250 5500 50  0001 C CNN
-F 3 "~" H 8250 5500 50  0001 C CNN
-	1    8250 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 4100 7050 4000
 Wire Wire Line
@@ -129,43 +118,16 @@ Wire Wire Line
 Wire Wire Line
 	7850 4000 7850 5400
 Wire Wire Line
-	7850 5400 8050 5400
-Wire Wire Line
 	6850 4100 6850 3900
 Wire Wire Line
 	6850 3900 7950 3900
 Wire Wire Line
 	7950 3900 7950 5300
 Wire Wire Line
-	7950 5300 8050 5300
-Wire Wire Line
 	6950 4700 6950 5500
-Wire Wire Line
-	6950 5500 8050 5500
-Wire Wire Line
-	8050 5600 6550 5600
 Wire Wire Line
 	6550 5600 6550 5550
 Connection ~ 6550 5550
-Wire Wire Line
-	7950 5700 8050 5700
-$Comp
-L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:Ext_switch S1
-U 1 1 5CEFD3C6
-P 10050 5200
-F 0 "S1" V 10048 5588 50  0000 L CNN
-F 1 "Emergency Button" V 10139 5588 50  0000 L CNN
-F 2 "" H 9850 5200 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=SS&DocLang=EN" H 9850 5200 50  0001 C CNN
-	1    10050 5200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8250 5600 9700 5600
-Wire Wire Line
-	8250 5700 9450 5700
-Wire Wire Line
-	9450 5700 9450 6100
 $Comp
 L Device:R R?
 U 1 1 5CF0A2FB
@@ -221,12 +183,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 2600 7350 2600
 Connection ~ 6550 2600
-Wire Wire Line
-	10550 6100 10550 5500
-Wire Wire Line
-	10550 5500 10350 5500
-Wire Wire Line
-	9450 6100 10550 6100
 Text GLabel 7800 3000 2    50   Input ~ 0
 Ardu_A6
 Wire Wire Line
@@ -283,4 +239,24 @@ Wire Wire Line
 	2000 3550 2000 2950
 Wire Wire Line
 	2000 2950 2500 2950
+Text GLabel 8150 5600 2    50   Input ~ 0
+ScrewTerm13-EmergencyStopSwitch1
+Text GLabel 8150 5700 2    50   Input ~ 0
+ScrewTerm14-EmergencyStopSwitch2
+Text GLabel 8150 5300 2    50   Input ~ 0
+ScrewTerm10-EmrgencyRelay12
+Text GLabel 8150 5400 2    50   Input ~ 0
+ScrewTerm11-EmrgencyRelay14
+Text GLabel 8150 5500 2    50   Input ~ 0
+ScrewTerm12-EmrgencyRelay11
+Wire Wire Line
+	7950 5300 8150 5300
+Wire Wire Line
+	7850 5400 8150 5400
+Wire Wire Line
+	6950 5500 8150 5500
+Wire Wire Line
+	6550 5600 8150 5600
+Wire Wire Line
+	7950 5700 8150 5700
 $EndSCHEMATC
