@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay:FINDER-34.51 K3
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K3
 U 1 1 5CED36F4
 P 6750 4400
 F 0 "K3" H 7180 4446 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-34.51 K2
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K2
 U 1 1 5CED5653
 P 4500 4450
 F 0 "K2" H 4930 4496 50  0000 L CNN
@@ -56,7 +56,7 @@ VCC-24V
 Wire Wire Line
 	4700 4950 4700 4750
 $Comp
-L Relay:FINDER-34.51 K1
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K1
 U 1 1 5CED8027
 P 2700 3700
 F 0 "K1" H 3130 3746 50  0000 L CNN
@@ -87,7 +87,7 @@ Connection ~ 4300 4000
 Wire Wire Line
 	4300 4000 4300 4150
 $Comp
-L Transistor_BJT:2N2219 Q2
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:2N2219-Transistor_BJT Q2
 U 1 1 5CED966B
 P 2350 4750
 F 0 "Q2" H 2540 4796 50  0000 L CNN
@@ -129,7 +129,7 @@ Wire Wire Line
 	6550 5600 6550 5550
 Connection ~ 6550 5550
 $Comp
-L Device:R R?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0A2FB
 P 1800 4750
 AR Path="/5CF0A2FB" Ref="R?"  Part="1" 
@@ -149,7 +149,7 @@ Ardu_A3
 Wire Wire Line
 	1400 4750 1650 4750
 $Comp
-L Device:R R?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0BD5A
 P 7350 2750
 AR Path="/5CF0BD5A" Ref="R?"  Part="1" 
@@ -163,7 +163,7 @@ F 3 "~" H 7350 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0C775
 P 7350 3200
 AR Path="/5CF0C775" Ref="R?"  Part="1" 
@@ -193,7 +193,7 @@ Wire Wire Line
 	7350 3000 7350 3050
 Connection ~ 7350 3000
 $Comp
-L Diode:1N4004 D?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D?
 U 1 1 5CEE427E
 P 5950 4400
 F 0 "D?" V 5904 4479 50  0000 L CNN
@@ -204,7 +204,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5950 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4004 D?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D?
 U 1 1 5CEE5957
 P 2000 3700
 F 0 "D?" V 1954 3779 50  0000 L CNN

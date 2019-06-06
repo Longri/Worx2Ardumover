@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x01_Female J?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CF1CF44
 P 1150 950
 AR Path="/5CF1CF44" Ref="J?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "~" H 1150 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CF1CF4A
 P 1150 1250
 AR Path="/5CF1CF4A" Ref="J?"  Part="1" 

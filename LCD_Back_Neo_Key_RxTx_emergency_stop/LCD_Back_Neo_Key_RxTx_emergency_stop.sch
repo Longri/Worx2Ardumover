@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A1
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:Arduino_Nano_v3.x-MCU_Module A1
 U 1 1 5CDFD485
 P 5400 4650
 F 0 "A1" H 5400 3561 50  0000 C CNN
@@ -57,7 +57,7 @@ Ardu_A2
 Text GLabel 1350 3650 2    50   Input ~ 0
 Ardu_A2
 $Comp
-L Connector:Conn_01x08_Male J3
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:Conn_01x08_Male-Connector J3
 U 1 1 5CE28136
 P 1400 6500
 F 0 "J3" H 1508 6981 50  0000 C CNN
