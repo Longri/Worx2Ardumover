@@ -12,23 +12,41 @@
 
 #include <Wire.h>
 
+const byte PIN_EMERGENCY_RESET = 17; // (A3)
+
 void setup() {
-  Wire.begin(8);                // join i2c bus with address #8
+  // join i2c bus with address #8
+  // wires conected to A4/A5
+  Wire.begin(8);
   Wire.onReceive(receiveEvent); // register event
   Serial.begin(9600);           // start serial for output
+
+  pinMode(PIN_EMERGENCY_RESET, OUTPUT);
 }
 
 void loop() {
-  delay(100);
+  delay(500);
 }
 
 // function that executes whenever data is received from master
 // this function is registered as an event, see setup()
 void receiveEvent(int howMany) {
-  while (1 < Wire.available()) { // loop through all but the last
+  String msg = "";
+
+  while (1 <= Wire.available()) { // loop through all but the last
     char c = Wire.read(); // receive byte as a character
-    Serial.print(c);         // print the character
+    msg += c;
   }
-  int x = Wire.read();    // receive byte as an integer
-  Serial.println(x);         // print the integer
+  Serial.println(msg);         // print the character
+
+  if (msg == "reset-emergency")
+    resetEmergencyStop();
+}
+
+
+void resetEmergencyStop() {
+  digitalWrite(PIN_EMERGENCY_RESET, HIGH);
+  delay(1000);
+  digitalWrite(PIN_EMERGENCY_RESET, LOW);
+  Serial.println("Emergency stop reseted");
 }
