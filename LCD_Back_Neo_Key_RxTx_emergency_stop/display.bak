@@ -32,7 +32,7 @@ GND
 Text GLabel 6750 3800 3    50   Input ~ 0
 VCC-5V
 $Comp
-L Device:CP C?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:CP-Device C?
 U 1 1 5CEEE166
 P 6650 4450
 AR Path="/5CEEE166" Ref="C?"  Part="1" 
@@ -45,7 +45,7 @@ F 3 "~" H 6650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CEEE16C
 P 6300 4300
 AR Path="/5CEEE16C" Ref="R?"  Part="1" 
@@ -68,7 +68,7 @@ Ardu_D3
 Wire Wire Line
 	5950 4300 6150 4300
 $Comp
-L Transistor_BJT:BC337 Q?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:BC337-Transistor_BJT Q?
 U 1 1 5CEEE177
 P 4850 4300
 AR Path="/5CEEE177" Ref="Q?"  Part="1" 
@@ -81,7 +81,7 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 4850 4
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CEEE17D
 P 4250 4300
 AR Path="/5CEEE17D" Ref="R?"  Part="1" 

@@ -17,246 +17,300 @@ $EndDescr
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K3
 U 1 1 5CED36F4
-P 6750 4400
-F 0 "K3" H 7180 4446 50  0000 L CNN
-F 1 "FINDER-34.51" H 7180 4355 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 7890 4360 50  0001 C CNN
-F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 6750 4400 50  0001 C CNN
-	1    6750 4400
+P 7100 3400
+F 0 "K3" H 7530 3446 50  0000 L CNN
+F 1 "FINDER-34.51" H 7530 3355 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 8240 3360 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 7100 3400 50  0001 C CNN
+	1    7100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K2
 U 1 1 5CED5653
-P 4500 4450
-F 0 "K2" H 4930 4496 50  0000 L CNN
-F 1 "FINDER-34.51" H 4930 4405 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 5640 4410 50  0001 C CNN
-F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 4500 4450 50  0001 C CNN
-	1    4500 4450
+P 4850 3450
+F 0 "K2" H 5280 3496 50  0000 L CNN
+F 1 "FINDER-34.51" H 5280 3405 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 5990 3410 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 4850 3450 50  0001 C CNN
+	1    4850 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 5700 0    50   Input ~ 0
+Text GLabel 6750 5750 0    50   Input ~ 0
 GND
 Wire Wire Line
-	4300 2600 6550 2600
+	4650 1600 6900 1600
 Wire Wire Line
-	4800 2750 4300 2750
-Connection ~ 4300 2750
-Wire Wire Line
-	4300 2750 4300 2600
-Wire Wire Line
-	6550 2600 6550 3850
-Wire Wire Line
-	4800 2750 4800 4150
-Wire Wire Line
-	4300 2750 4300 4000
-Text GLabel 4700 4950 3    50   Input ~ 0
+	6900 1600 6900 2850
+Text GLabel 5050 3950 3    50   Input ~ 0
 VCC-24V
 Wire Wire Line
-	4700 4950 4700 4750
+	5050 3950 5050 3750
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K1
 U 1 1 5CED8027
-P 2700 3700
-F 0 "K1" H 3130 3746 50  0000 L CNN
-F 1 "FINDER-34.51" H 3130 3655 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 3840 3660 50  0001 C CNN
-F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 2700 3700 50  0001 C CNN
-	1    2700 3700
+P 3050 2700
+F 0 "K1" H 3480 2746 50  0000 L CNN
+F 1 "FINDER-34.51" H 3480 2655 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 4190 2660 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 3050 2700 50  0001 C CNN
+	1    3050 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 2400 1    50   Input ~ 0
+Text GLabel 2850 1600 1    50   Input ~ 0
 VCC-24V
 Wire Wire Line
-	2500 3400 2500 2950
+	2850 2400 2850 1950
 Wire Wire Line
-	2500 2600 2400 2600
+	2850 1950 3350 1950
 Wire Wire Line
-	2400 2600 2400 2400
+	3350 1950 3350 2400
+Connection ~ 2850 1950
 Wire Wire Line
-	2500 2950 3000 2950
+	3250 3000 4650 3000
+Connection ~ 4650 3000
 Wire Wire Line
-	3000 2950 3000 3400
-Connection ~ 2500 2950
-Wire Wire Line
-	2500 2950 2500 2600
-Wire Wire Line
-	2900 4000 4300 4000
-Connection ~ 4300 4000
-Wire Wire Line
-	4300 4000 4300 4150
+	4650 3000 4650 3150
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:2N2219-Transistor_BJT Q2
 U 1 1 5CED966B
-P 2350 4750
-F 0 "Q2" H 2540 4796 50  0000 L CNN
-F 1 "2N2222" H 2540 4705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2550 4675 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2350 4750 50  0001 L CNN
-	1    2350 4750
+P 2700 3750
+F 0 "Q2" H 2890 3796 50  0000 L CNN
+F 1 "2N2222" H 2890 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 2900 3675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2700 3750 50  0001 L CNN
+	1    2700 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 4000 2500 4100
+	2850 3000 2850 3100
 Wire Wire Line
-	2500 4550 2450 4550
-Text GLabel 2450 5250 3    50   Input ~ 0
+	2850 3550 2800 3550
+Text GLabel 2800 4250 3    50   Input ~ 0
 GND
 Wire Wire Line
-	2450 5250 2450 4950
+	2800 4250 2800 3950
 Wire Wire Line
-	4300 5550 6550 5550
+	6900 3700 6900 3850
 Wire Wire Line
-	6550 4700 6550 4850
+	4650 3750 4650 4550
 Wire Wire Line
-	4300 4750 4300 5550
+	7400 3100 7400 3000
 Wire Wire Line
-	7050 4100 7050 4000
+	7400 3000 8200 3000
 Wire Wire Line
-	7050 4000 7850 4000
+	8200 3000 8200 4400
 Wire Wire Line
-	7850 4000 7850 5400
+	7200 3100 7200 2900
 Wire Wire Line
-	6850 4100 6850 3900
+	7200 2900 8300 2900
 Wire Wire Line
-	6850 3900 7950 3900
+	8300 2900 8300 4300
 Wire Wire Line
-	7950 3900 7950 5300
-Wire Wire Line
-	6950 4700 6950 5500
-Wire Wire Line
-	6550 5600 6550 5550
-Connection ~ 6550 5550
+	7300 3700 7300 4500
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0A2FB
-P 1800 4750
+P 2150 3750
 AR Path="/5CF0A2FB" Ref="R?"  Part="1" 
 AR Path="/5CED8FBC/5CF0A2FB" Ref="R?"  Part="1" 
 AR Path="/5CED30A6/5CF0A2FB" Ref="R3"  Part="1" 
-F 0 "R3" V 1593 4750 50  0000 C CNN
-F 1 "1k" V 1684 4750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1685 4750 50  0001 C CNN
-F 3 "~" H 1800 4750 50  0001 C CNN
-	1    1800 4750
+F 0 "R3" V 1943 3750 50  0000 C CNN
+F 1 "1k" V 2034 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2035 3750 50  0001 C CNN
+F 3 "~" H 2150 3750 50  0001 C CNN
+	1    2150 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 4750 2150 4750
-Text GLabel 1400 4750 0    50   Input ~ 0
+	2300 3750 2500 3750
+Text GLabel 1750 3750 0    50   Input ~ 0
 Ardu_A3
 Wire Wire Line
-	1400 4750 1650 4750
+	1750 3750 2000 3750
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0BD5A
-P 7350 2750
+P 7700 1750
 AR Path="/5CF0BD5A" Ref="R?"  Part="1" 
 AR Path="/5CED8FBC/5CF0BD5A" Ref="R?"  Part="1" 
 AR Path="/5CED30A6/5CF0BD5A" Ref="R4"  Part="1" 
-F 0 "R4" V 7143 2750 50  0000 C CNN
-F 1 "100k" V 7234 2750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7235 2750 50  0001 C CNN
-F 3 "~" H 7350 2750 50  0001 C CNN
-	1    7350 2750
+F 0 "R4" V 7493 1750 50  0000 C CNN
+F 1 "100k" V 7584 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7585 1750 50  0001 C CNN
+F 3 "~" H 7700 1750 50  0001 C CNN
+	1    7700 1750
 	-1   0    0    1   
 $EndComp
 $Comp
 L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:R-Device R?
 U 1 1 5CF0C775
-P 7350 3200
+P 7700 2200
 AR Path="/5CF0C775" Ref="R?"  Part="1" 
 AR Path="/5CED8FBC/5CF0C775" Ref="R?"  Part="1" 
 AR Path="/5CED30A6/5CF0C775" Ref="R5"  Part="1" 
-F 0 "R5" V 7143 3200 50  0000 C CNN
-F 1 "10k" V 7234 3200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7235 3200 50  0001 C CNN
-F 3 "~" H 7350 3200 50  0001 C CNN
-	1    7350 3200
+F 0 "R5" V 7493 2200 50  0000 C CNN
+F 1 "10k" V 7584 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7585 2200 50  0001 C CNN
+F 3 "~" H 7700 2200 50  0001 C CNN
+	1    7700 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 7350 3500 3    50   Input ~ 0
+Text GLabel 7700 2500 3    50   Input ~ 0
 GND
 Wire Wire Line
-	7350 3500 7350 3350
+	7700 2500 7700 2350
 Wire Wire Line
-	6550 2600 7350 2600
-Connection ~ 6550 2600
-Text GLabel 7800 3000 2    50   Input ~ 0
+	6900 1600 7700 1600
+Connection ~ 6900 1600
+Text GLabel 8150 2000 2    50   Input ~ 0
 Ardu_A6
 Wire Wire Line
-	7350 3000 7800 3000
+	7700 2000 8150 2000
 Wire Wire Line
-	7350 2900 7350 3000
+	7700 1900 7700 2000
 Wire Wire Line
-	7350 3000 7350 3050
-Connection ~ 7350 3000
+	7700 2000 7700 2050
+Connection ~ 7700 2000
 $Comp
-L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D2
 U 1 1 5CEE427E
-P 5950 4400
-F 0 "D?" V 5904 4479 50  0000 L CNN
-F 1 "1N4004" V 5995 4479 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5950 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5950 4400 50  0001 C CNN
-	1    5950 4400
+P 6300 3400
+F 0 "D2" V 6254 3479 50  0000 L CNN
+F 1 "1N4004" V 6345 3479 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6300 3225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6300 3400 50  0001 C CNN
+	1    6300 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D?
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:1N4004-Diode D1
 U 1 1 5CEE5957
-P 2000 3700
-F 0 "D?" V 1954 3779 50  0000 L CNN
-F 1 "1N4004" V 2045 3779 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2000 3525 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2000 3700 50  0001 C CNN
-	1    2000 3700
+P 2350 2700
+F 0 "D1" V 2304 2779 50  0000 L CNN
+F 1 "1N4004" V 2395 2779 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2350 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2350 2700 50  0001 C CNN
+	1    2350 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 4550 5950 4850
+	6300 3550 6300 3850
 Wire Wire Line
-	5950 4850 6550 4850
-Connection ~ 6550 4850
+	6300 3850 6900 3850
+Connection ~ 6900 3850
 Wire Wire Line
-	6550 4850 6550 5550
+	6900 3850 6900 4550
 Wire Wire Line
-	5950 4250 5950 3850
+	6300 3250 6300 2850
 Wire Wire Line
-	5950 3850 6550 3850
-Connection ~ 6550 3850
+	6300 2850 6900 2850
+Connection ~ 6900 2850
 Wire Wire Line
-	6550 3850 6550 4100
+	6900 2850 6900 3100
 Wire Wire Line
-	2000 3850 2000 4100
+	2350 2850 2350 3100
 Wire Wire Line
-	2000 4100 2500 4100
-Connection ~ 2500 4100
+	2350 3100 2850 3100
+Connection ~ 2850 3100
 Wire Wire Line
-	2500 4100 2500 4550
+	2850 3100 2850 3550
 Wire Wire Line
-	2000 3550 2000 2950
+	2350 2550 2350 1950
 Wire Wire Line
-	2000 2950 2500 2950
-Text GLabel 8150 5600 2    50   Input ~ 0
-ScrewTerm13-EmergencyStopSwitch1
-Text GLabel 8150 5700 2    50   Input ~ 0
-ScrewTerm14-EmergencyStopSwitch2
-Text GLabel 8150 5300 2    50   Input ~ 0
-ScrewTerm10-EmrgencyRelay12
-Text GLabel 8150 5400 2    50   Input ~ 0
-ScrewTerm11-EmrgencyRelay14
-Text GLabel 8150 5500 2    50   Input ~ 0
-ScrewTerm12-EmrgencyRelay11
+	2350 1950 2850 1950
+Text GLabel 8500 5550 2    50   Input ~ 0
+ScrewTerm11-EmergencyStopSwitch1
+Text GLabel 8500 5750 2    50   Input ~ 0
+ScrewTerm12-EmergencyStopSwitch2
+Text GLabel 8500 4300 2    50   Input ~ 0
+ScrewTerm8-EmrgencyRelay12
+Text GLabel 8500 4400 2    50   Input ~ 0
+ScrewTerm9-EmrgencyRelay14
+Text GLabel 8500 4500 2    50   Input ~ 0
+ScrewTerm10-EmrgencyRelay11
 Wire Wire Line
-	7950 5300 8150 5300
+	8300 4300 8500 4300
 Wire Wire Line
-	7850 5400 8150 5400
+	8200 4400 8500 4400
 Wire Wire Line
-	6950 5500 8150 5500
+	7300 4500 8500 4500
+$Comp
+L LCD_Back_Neo_Key_RxTx_emergency_stop-rescue:FINDER-34.51-Relay K4
+U 1 1 5D0214D9
+P 4550 5050
+F 0 "K4" H 4980 5096 50  0000 L CNN
+F 1 "FINDER-34.51" H 4980 5005 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 5690 5010 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 4550 5050 50  0001 C CNN
+	1    4550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduMicro:Jumper_lon-jumper_lon JP1
+U 1 1 5D031BCB
+P 5750 5050
+F 0 "JP1" V 5704 5125 50  0000 L CNN
+F 1 "Jumper_lon-jumper_lon" V 5795 5125 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5750 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L ArduMicro:Jumper_lon-jumper_lon JP2
+U 1 1 5D0328C2
+P 7200 5650
+F 0 "JP2" V 7154 5725 50  0000 L CNN
+F 1 "Jumper_lon-jumper_lon" V 7245 5725 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7200 5650 50  0001 C CNN
+F 3 "" H 7200 5650 50  0001 C CNN
+	1    7200 5650
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6550 5600 8150 5600
+	4650 4750 4650 4550
 Wire Wire Line
-	7950 5700 8150 5700
+	5750 4550 5750 4950
+Wire Wire Line
+	5750 5150 5750 5550
+Wire Wire Line
+	5750 5550 4750 5550
+Wire Wire Line
+	4750 5550 4750 5350
+Wire Wire Line
+	4650 4550 5750 4550
+Connection ~ 4650 4550
+Connection ~ 5750 4550
+Wire Wire Line
+	5750 4550 6900 4550
+Wire Wire Line
+	8500 5550 7200 5550
+Wire Wire Line
+	5750 5550 7200 5550
+Connection ~ 5750 5550
+Connection ~ 7200 5550
+Wire Wire Line
+	6750 5750 7200 5750
+Wire Wire Line
+	7200 5750 8500 5750
+Connection ~ 7200 5750
+Text GLabel 4350 4550 1    50   Input ~ 0
+VCC-24V
+Wire Wire Line
+	4350 4550 4350 4750
+Text GLabel 8500 5950 2    50   Input ~ 0
+ScrewTerm13-EmergencyStopSwitch3
+Wire Wire Line
+	8500 5950 4350 5950
+Wire Wire Line
+	4350 5950 4350 5350
+Wire Wire Line
+	4650 1600 4650 3000
+Wire Wire Line
+	5150 3150 5150 3000
+Wire Wire Line
+	5150 3000 4650 3000
+Wire Wire Line
+	2850 1600 2850 1950
 $EndSCHEMATC
