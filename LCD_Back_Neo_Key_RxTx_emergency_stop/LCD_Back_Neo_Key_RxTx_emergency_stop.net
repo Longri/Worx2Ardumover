@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\@Work\Gits\Worx2Ardumover\LCD_Back_Neo_Key_RxTx_emergency_stop\LCD_Back_Neo_Key_RxTx_emergency_stop.sch)
-    (date "13.06.2019 12:38:15")
+    (date "13.06.2019 13:08:19")
     (tool "Eeschema (5.1.0-9-gc61ec8ee3)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -91,7 +91,7 @@
       (tstamp 5CEEE166))
     (comp (ref R2)
       (value R)
-      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal)
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (datasheet ~)
       (libsource (lib LCD_Back_Neo_Key_RxTx_emergency_stop-rescue) (part R-Device) (description ""))
       (sheetpath (names /Display/) (tstamps /5CED8FBC/))
