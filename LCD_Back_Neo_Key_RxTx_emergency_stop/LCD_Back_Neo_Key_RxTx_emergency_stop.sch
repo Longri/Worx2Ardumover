@@ -213,11 +213,11 @@ F 3 "~" H 800 3850 50  0001 C CNN
 	1    800  3850
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 3950 2    50   Input ~ 0
-ScrewTerm8-EmrgencyRelay12
-Text GLabel 1950 3850 2    50   Input ~ 0
-ScrewTerm9-EmrgencyRelay14
 Text GLabel 1950 3750 2    50   Input ~ 0
+ScrewTerm8-EmrgencyRelay12
+Text GLabel 1950 3950 2    50   Input ~ 0
+ScrewTerm9-EmrgencyRelay14
+Text GLabel 1950 3850 2    50   Input ~ 0
 ScrewTerm10-EmrgencyRelay11
 Text GLabel 1950 3650 2    50   Input ~ 0
 ScrewTerm11-EmergencyStopSwitch1
@@ -256,11 +256,11 @@ Wire Wire Line
 Text GLabel 1950 3450 2    50   Input ~ 0
 ScrewTerm13-EmergencyStopSwitch3
 Wire Wire Line
+	1000 3750 1950 3750
+Wire Wire Line
 	1000 3950 1950 3950
 Wire Wire Line
 	1000 3850 1950 3850
-Wire Wire Line
-	1000 3750 1950 3750
 Wire Wire Line
 	1000 3650 1950 3650
 Wire Wire Line
