@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Micro)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Micro.pretty")(options "")(descr ""))
   (lib (name LCD_Back_Neo_Key_RxTx_emergency_stop)(type KiCad)(uri ${KIPRJMOD}/LCD_Back_Neo_Key_RxTx_emergency_stop.pretty)(options "")(descr ""))
+  (lib (name ST7567-LCD-Kicad)(type KiCad)(uri "E:/@Work/Gits/Worx2Ardumover/used kicad libs/library/ST7567-LCD-Kicad.pretty")(options "")(descr ""))
 )
