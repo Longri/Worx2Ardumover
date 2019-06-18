@@ -52,7 +52,7 @@ AR Path="/5CEEE16C" Ref="R?"  Part="1"
 AR Path="/5CED8FBC/5CEEE16C" Ref="R2"  Part="1" 
 F 0 "R2" V 6093 4300 50  0000 C CNN
 F 1 "R" V 6184 4300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 6185 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6185 4300 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN
 	1    6300 4300
 	0    1    1    0   
